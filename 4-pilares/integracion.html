@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Integracion</title>
+</head>
+
+<body>
+    <nav class="pilares">
+        <a href="../index.html" class="logo"><img src="../img/logoceusta.svg" alt=""></a>
+        <a href="../index.html" class="button">Inicio</a>
+    </nav>
+
+    <header class="pilares1">
+        <div class="overlay">
+            <h1>Bienvenidos "NUESTROS PILARES"</h1>
+        </div>
+    </header>
+
+    <main class="pilares2">
+        <h2>INTEGRACION</h2>
+        <p>
+            <strong>Integración:</strong><br><br>
+            La integración es mucho más que una simple palabra; es un camino hacia la libertad y el crecimiento personal. Para ustedes, estudiantes universitarios en contexto de encierro, el estudio no es solo una opción, sino una puerta hacia una nueva vida. Cada libro que abren, cada clase que toman, es un paso hacia la reinserción en la sociedad. No importa dónde se encuentren ahora, lo que verdaderamente importa es hacia dónde se dirigen. La educación es la herramienta más poderosa que tienen a su disposición. Es una llave que abre puertas, rompe barreras y crea nuevas oportunidades.<br><br>
+            
+            Al dedicarse al estudio, están desafiando las circunstancias y mostrando un compromiso con su futuro. Están demostrando que, independientemente de los errores del pasado, tienen la capacidad de cambiar y de construir un nuevo camino lleno de posibilidades. Cada lección aprendida, cada examen aprobado, es una victoria que los acerca más a sus metas. No están solos en este viaje. Desde el CEUSTA, estamos aquí para apoyarlos, para brindarles las herramientas necesarias y para acompañarlos en cada paso del camino.<br><br>
+            
+            La integración a través del estudio universitario no solo transforma sus vidas, sino también la de sus familias y comunidades. Ustedes tienen el poder de ser agentes de cambio, de inspirar a otros a seguir sus pasos y de construir una sociedad más justa e inclusiva. No subestimen el impacto que pueden tener. Sigamos adelante juntos, con la educación como nuestro estandarte y la integración como nuestra meta. ¡Adelante, el futuro es suyo!<br>
+        </p>
+        
+        
+    </main>
+
+    <script>
+        // JavaScript para la animación del texto del párrafo al hacer scroll
+        document.addEventListener('scroll', function() {
+            const para = document.querySelector('main p');
+            const position = para.getBoundingClientRect().top;
+            const screenPosition = window.innerHeight / 1.2;
+
+            if(position < screenPosition) {
+                para.classList.add('visible');
+            }
+        });
+    </script>
+     <script>
+        // JavaScript para hacer que todos los enlaces abran en una nueva pestaña
+        document.querySelectorAll('a').forEach(function(link) {
+            link.setAttribute('target', '_blank');
+        });
+    </script>
+</body>
+</html>

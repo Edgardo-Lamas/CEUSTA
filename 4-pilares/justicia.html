@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Educacion</title>
+</head>
+
+<body>
+    <nav class="pilares">
+        <a href="../index.html" class="logo"><img src="../img/logoceusta.svg" alt=""></a>
+        <a href="../index.html" class="button">Inicio</a>
+    </nav>
+
+    <header class="pilares1">
+        <div class="overlay">
+            <h1>Bienvenidos "NUESTROS PILARES"</h1>
+        </div>
+    </header>
+
+    <main class="pilares2">
+        <h2>JUSTICIA</h2>
+        <p>
+            <strong>Justicia:</strong><br><br>
+            La justicia es un pilar fundamental en cualquier sociedad que aspira a la equidad y la paz. Es el principio que garantiza que cada individuo reciba lo que le corresponde, sin favoritismos ni discriminaciones. Para los estudiantes universitarios en contexto de encierro, la justicia adquiere un significado aún más profundo. No se trata solo de castigar el delito, sino de ofrecer segundas oportunidades y caminos hacia la reinserción social.<br><br>
+        
+            La justicia implica una evaluación equitativa de cada situación, considerando no solo los actos cometidos, sino también las circunstancias y el potencial de cambio de cada individuo. Es un equilibrio delicado entre la retribución y la rehabilitación. Para los estudiantes en contexto de encierro, la educación es una manifestación tangible de justicia. Les permite acceder a conocimientos y herramientas que fomentan su desarrollo personal y profesional, preparando el terreno para una reintegración exitosa en la sociedad.<br><br>
+        
+            Los alcances de la justicia son vastos y multifacéticos. No solo se limitan a los tribunales y las leyes, sino que también se extienden a la educación, la igualdad de oportunidades y el respeto a los derechos humanos. En este contexto, la justicia educativa es esencial. Proporcionar acceso a la educación a quienes se encuentran privados de su libertad es un acto de justicia social. Reconoce que todos tienen el potencial de cambiar y contribuir positivamente a la comunidad.<br><br>
+        
+            La justicia afecta directamente a los estudiantes universitarios en contexto de encierro al brindarles la esperanza y la posibilidad de una vida mejor. Al invertir en su educación, la sociedad no solo está cumpliendo con un deber moral, sino que también está sembrando las semillas de un futuro más inclusivo y equitativo. La educación transforma vidas y rompe el ciclo de la reincidencia, ofreciendo a estos estudiantes una verdadera oportunidad de redención.<br><br>
+        
+            En conclusión, la justicia es el faro que guía nuestros esfuerzos hacia un mundo más justo y humano. Para los estudiantes en contexto de encierro, representa la esperanza de un mañana mejor, construido sobre la base sólida del conocimiento y la superación personal. Celebremos y promovamos la justicia en todas sus formas, porque solo así lograremos una sociedad donde todos tengan la oportunidad de alcanzar su máximo potencial.<br>
+        </p>
+        
+        
+    </main>
+
+    <script>
+        // JavaScript para la animación del texto del párrafo al hacer scroll
+        document.addEventListener('scroll', function() {
+            const para = document.querySelector('main p');
+            const position = para.getBoundingClientRect().top;
+            const screenPosition = window.innerHeight / 1.2;
+
+            if(position < screenPosition) {
+                para.classList.add('visible');
+            }
+        });
+    </script>
+     <script>
+        // JavaScript para hacer que todos los enlaces abran en una nueva pestaña
+        document.querySelectorAll('a').forEach(function(link) {
+            link.setAttribute('target', '_blank');
+        });
+    </script>
+</body>
+</html>

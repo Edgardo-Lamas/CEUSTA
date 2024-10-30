@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Integracion</title>
+</head>
+
+<body>
+    <nav class="pilares">
+        <a href="../index.html" class="logo"><img src="../img/logoceusta.svg" alt=""></a>
+        <a href="../index.html" class="button">Inicio</a>
+    </nav>
+
+    <header class="pilares1">
+        <div class="overlay">
+            <h1>Bienvenidos "NUESTROS PILARES"</h1>
+        </div>
+    </header>
+
+    <main class="pilares2">
+        <h2>DERECHO</h2>
+        <p>
+            <strong>Derecho:</strong><br><br>
+            El derecho a la educación es uno de los pilares fundamentales para el desarrollo de cualquier individuo y sociedad. Este derecho no solo abre puertas al conocimiento, sino que también empodera y transforma vidas. Para los estudiantes en contexto de encierro, la posibilidad de acceder a la educación representa una oportunidad única de redención y superación personal. El derecho a estudiar es una vía hacia la reinserción social y la construcción de un futuro mejor.<br><br>
+        
+            La importancia de este derecho radica en su capacidad para proporcionar herramientas que permiten a las personas reconstruir sus vidas. La educación ofrece conocimientos y habilidades que son esenciales para el desarrollo personal y profesional. En el contexto de encierro, el acceso a la educación se convierte en un faro de esperanza, brindando la posibilidad de escapar del ciclo de reincidencia y contribuir positivamente a la sociedad.<br><br>
+        
+            La proyección de un individuo que ejerce su derecho a la educación es inmensa. Al adquirir conocimientos y competencias, los estudiantes se preparan para enfrentar el mundo exterior con una perspectiva renovada y una mayor confianza en sí mismos. La educación no solo abre puertas a oportunidades laborales, sino que también promueve la autoestima y el sentido de dignidad. Los beneficios de estudiar trascienden lo académico; transforman al individuo y, en consecuencia, a toda la comunidad.<br><br>
+        
+            Los beneficios de ejercer el derecho a la educación son innumerables. En primer lugar, proporciona una estructura y propósito durante el tiempo de encierro. El estudio ofrece una vía para canalizar energía y pensamientos en algo constructivo y positivo. Además, aprender y superarse constantemente fomenta la resiliencia y la capacidad para enfrentar desafíos. La educación también mejora las habilidades sociales, permitiendo una mejor comunicación y comprensión de los demás, factores cruciales para la reinserción efectiva.<br><br>
+        
+            En conclusión, el derecho a estudiar es una herramienta poderosa y transformadora. Para los estudiantes en contexto de encierro, representa una segunda oportunidad para cambiar el rumbo de sus vidas y construir un futuro lleno de posibilidades. La educación no solo beneficia al individuo, sino que también fortalece a la sociedad, creando un entorno más justo e inclusivo. Celebremos y promovamos este derecho, porque en él reside la esperanza de un mañana mejor.<br>
+        </p>
+        
+        
+    </main>
+
+    <script>
+        // JavaScript para la animación del texto del párrafo al hacer scroll
+        document.addEventListener('scroll', function() {
+            const para = document.querySelector('main p');
+            const position = para.getBoundingClientRect().top;
+            const screenPosition = window.innerHeight / 1.2;
+
+            if(position < screenPosition) {
+                para.classList.add('visible');
+            }
+        });
+    </script>
+     <script>
+        // JavaScript para hacer que todos los enlaces abran en una nueva pestaña
+        document.querySelectorAll('a').forEach(function(link) {
+            link.setAttribute('target', '_blank');
+        });
+    </script>
+</body>
+</html>

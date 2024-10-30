@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Educacion</title>
+</head>
+
+<body>
+    <nav class="pilares">
+        <a href="../index.html" class="logo"><img src="../img/logoceusta.svg" alt=""></a>
+        <a href="../index.html" class="button">Inicio</a>
+    </nav>
+
+    <header class="pilares1">
+        <div class="overlay">
+            <h1>Bienvenidos "NUESTROS PILARES"</h1>
+        </div>
+    </header>
+
+    <main class="pilares2">
+        <h2>La Educacion</h2>
+        <p>
+            <strong>EL APRENDIZAJE Y LA ENSEÑANZA COMO FILOSOFÍA DE VIDA:</strong> No importa el lugar o la circunstancia por la que estés pasando, no dudes en aprender, en utilizar esta herramienta tan importante que todos tenemos, pero no todos sabemos aprovechar. La educación es una palabra muy amplia y muy rica, porque no solo es aprender lo que las instituciones o los sistemas educativos te enseñan, sino aprender modales, formas, maneras de dirigirte y expresarte, cómo tratar con tus pares, cómo convivir en una sociedad donde el respeto y los valores sean tu motivación.<br><br>
+            
+            El pensar nos da una posibilidad única de entender por dónde dirigirnos y hacia dónde ir, buscando el bienestar en cada paso que damos. Tomar la educación como filosofía de vida nos abre puertas a un futuro muy distinto al que nos dirigiríamos si no estudiáramos. El contexto por el cual hoy te toca transitar, no tiene por qué ser un obstáculo en tu camino hacia un título formativo, con el cual afrontar el resto de tu vida de una manera diferente.<br><br>
+            
+            Te invitamos desde el CEUSTA a que te formes, que te instruyas, que utilices este espacio tan importante, que no todos los privados de su libertad tienen. Vamos a trabajar constantemente en pos del estudiantado, para que cada aula tenga alumnas, alumnos, maestras y maestros. Te vamos a brindar las herramientas necesarias para que tu paso por acá sea lo más leve posible y puedas capitalizar cada minuto de tu vida que estés en este contexto.<br><br>
+            
+            En conjunto con los compañeros, con la UNLP, con las agrupaciones estudiantiles, con cada instructor, realizaremos talleres, clases y capacitaciones permanentes para poder sacar lo mejor de cada uno de los actores de esta subcultura tan particular. Súmate, propone, acércate, pregunta, no dudes un instante en que acá vas a encontrar personas capacitadas y con la voluntad de ayudarte en todo tipo de inquietud. Sé parte de este equipo de personas luchadoras, con la resiliencia como bandera.<br><br>
+            
+            El CEUSTA te abre las puertas a desarrollarte, a capacitarte, a compartir junto a otras compañeras y compañeros esta experiencia, que tiene como fin que puedas cambiar y/o potenciar tus habilidades. Anímate, vos podés, te vamos a proponer que puedas entender que mucho de lo que te pase en tu vida tiene que ver con vos, con tus decisiones. Si una vez te desviaste, no lo vuelvas a hacer, elegí el CEUSTA y verás que de acá en más, todo va a ser diferente.<br><br>
+            
+            Elegí algunas de las ofertas académicas, con las que contamos: DERECHO, HUMANIDADES o LICENCIATURA EN COMUNICACIÓN SOCIAL. Solo depende de vos.
+        </p>
+        
+    </main>
+
+    <script>
+        // JavaScript para la animación del texto del párrafo al hacer scroll
+        document.addEventListener('scroll', function() {
+            const para = document.querySelector('main p');
+            const position = para.getBoundingClientRect().top;
+            const screenPosition = window.innerHeight / 1.2;
+
+            if(position < screenPosition) {
+                para.classList.add('visible');
+            }
+        });
+    </script>
+     <script>
+        // JavaScript para hacer que todos los enlaces abran en una nueva pestaña
+        document.querySelectorAll('a').forEach(function(link) {
+            link.setAttribute('target', '_blank');
+        });
+    </script>
+</body>
+</html>
