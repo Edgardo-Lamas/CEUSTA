@@ -1051,7 +1051,7 @@ a .six{
 
 #rss-feed {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 25px;
 }
 
 .rss-item {
@@ -1060,12 +1060,12 @@ a .six{
 
 .rss-item a {
     font-size: 18px;
-    color: #007bff;
+    color: #0564ca;
     text-decoration: none;
 }
 
 .rss-item p {
-    font-size: 14px;
+    font-size: 16px;
     color: #555;
 }
 
