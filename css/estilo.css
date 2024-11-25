@@ -1042,6 +1042,44 @@ a .six{
     overflow: hidden; 
 }
 
+
+
+/*RSS RSS RSS RSS RSS RSS*/
+/*RSS RSS RSS RSS RSS RSS*/
+/*RSS RSS RSS RSS RSS RSS*/
+
+
+#rss-feed {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.rss-item {
+    margin-bottom: 15px;
+}
+
+.rss-item a {
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.rss-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*FIN DEL GRID FINDEL GRID FINDEL GRID
 FIN DEL GRID FIN DEL GRID FINDEL GRID*/
 
