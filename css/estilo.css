@@ -1042,7 +1042,37 @@ a .six{
     overflow: hidden; 
 }
 
+.ecology-container{
+    width: 100%;
+    display: flex; 
+   
+}
+.ecology{ 
+    width: 70%;
+    height: 50vh;
+    background-color: #444; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .ecology img{
+    width: 50%;
+    height: 50vh;
+    background-color: aqua;
+ }
+ .ecology-cero{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
 
+ .ecology-one{
+    width: 25%;
+    height: 50vh;
+    background-color: #e11010;
+ }
 
 /*RSS RSS RSS RSS RSS RSS*/
 /*RSS RSS RSS RSS RSS RSS*/
