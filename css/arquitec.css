@@ -1,0 +1,773 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+/*DERECHO CIVIL DERECHO CIVIL DERECHO CIVIL*/
+/*DERECHO CIVIL DERECHO CIVIL DERECHO CIVIL*/
+/*DERECHO CIVIL DERECHO CIVIL DERECHO CIVIL*/
+
+/* styles.css */
+
+#unique-header-container{
+    width: 100%;
+    height: 100vh;
+}
+
+
+#unique-header-container header{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: white;
+    padding: 10px;
+}
+#unique-header-container header nav{
+    height: 100px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#unique-header-container header nav img {
+    width: 80px;
+}
+
+#unique-header-container header nav ul.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#unique-header-container header nav ul.menu li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+#unique-header-container header nav ul.menu li a:hover {
+    color: #f00000;
+}
+ .derechocivil{
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    background-color: aqua;
+ }
+ 
+ 
+ .one-civil{
+    width: 50%;
+    height: 100%;
+    background-color: #3d3636; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 4px solid white;
+ }
+ .uno{
+    width: 100%;
+    height: 50%;
+    
+ }
+ .dos{
+    width: 100%;
+    height: 50%;
+   
+ }
+ .tres{
+    width: 100%;
+    height: 50%;
+  
+ }
+
+ .cuatro{
+    width: 100%;
+    height: 50%;
+  
+ }
+
+
+
+
+ /* Estilo del contenedor de la sección */
+section.uno{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 4px solid white;
+}
+
+/* Estilo de la imagen para centrarla */
+section.uno img{
+    width: 100%;
+    height: 90%;
+    display: block;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+/* Estilo del texto superpuesto */
+section.uno h2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.517);
+    text-align: center;
+    padding: 10px;
+   
+}
+section.uno p{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.517);
+    text-align: center;
+    display: block;
+    padding: 8px 5px 8px 5px;
+    
+}
+
+/* Ajustes específicos para título y párrafo */
+section.uno h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section.uno p{
+    font-size: 1.2em;
+}
+/* Estilo del contenedor de la sección */
+section.dos {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Estilo de la imagen para centrarla */
+section.dos img{
+    width: 100%;
+    height: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo del texto superpuesto */
+section.dos h2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.517);
+    text-align: center;
+    padding: 10px;
+   
+}
+section.dos p{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.517);
+    text-align: center;
+    display: block;
+    padding: 8px 5px 8px 5px;
+    
+}
+
+/* Ajustes específicos para título y párrafo */
+section.dos h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section.dos p{
+    font-size: 1.2em;
+}
+
+
+ .two-civil{
+    width: 50%;
+    height: 100%;
+    background-color: #3d3636;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items: center;
+ }
+
+
+/* Estilo del contenedor de la sección */
+section.tres {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 4px solid white;
+}
+
+/* Estilo de la imagen para centrarla */
+section.tres img{
+    width: 100%;
+    height: 90%;
+    padding-top: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo del texto superpuesto */
+section.tres h2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.517);
+    text-align: center;
+    padding: 10px;
+   
+}
+section.tres p{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.517);
+    text-align: center;
+    display: block;
+    padding: 8px 5px 8px 5px;
+}
+
+/* Ajustes específicos para título y párrafo */
+section.tres h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section.tres p{
+    font-size: 1.2em;
+}
+
+/* Estilo del contenedor de la sección */
+section.cuatro{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Estilo de la imagen para centrarla */
+section.cuatro img{
+    width: 100%;
+    height: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo del texto superpuesto */
+section.cuatro h2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.517);
+    text-align: center;
+    padding: 10px;
+}
+section.cuatro p{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.517);
+    text-align: center;
+    display: block;
+    padding: 8px 5px 8px 5px;
+}
+
+/* Ajustes específicos para título y párrafo */
+section.cuatro h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section.cuatro p{
+    font-size: 1.2em;
+}
+
+/*INICIO DEL MAIN DE DERECHO CIVIL INICIO DEL MAIN DE DERECHO CIVIL*/
+/*INICIO DEL MAIN DE DERECHO CIVIL INICIO DEL MAIN DE DERECHO CIVIL*/
+/*INICIO DEL MAIN DE DERECHO CIVIL INICIO DEL MAIN DE DERECHO CIVIL*/
+
+/* Reset de márgenes y relleno */
+
+
+
+/* Diferentes colores para cada sección */
+section.educativo {
+    width: 100%;
+    height: 400px;
+    background-color:#670505; /* Azul Marino */
+    color: white;
+    display: flex;
+    justify-content:space-between;
+}
+.card-one{
+    width: 25%;
+    height: 100%;
+    border: 2px solid white;
+}
+.card-one a{
+   text-decoration: none;
+}
+.card-one h3{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 30px;
+}
+.card-one p{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-one img{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding-top: 40px;
+}
+
+.card-two{
+    width: 25%;
+    height: 100%;
+    border: 2px solid white;
+}
+.card-two a{
+    text-decoration: none;
+ }
+ .card-two h3{
+     text-align: center;
+     color: #FFFFFF;
+     font-size: 40px;
+     font-weight: 600;
+     font-family: 'Times New Roman', Times, serif;
+     padding-top: 30px;
+ }
+ .card-two p{
+     text-align: center;
+     color: #FFFFFF;
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .card-two img{
+     width: 300px;
+     height: auto;
+     margin: auto;
+     display: block;
+     padding-top: 40px;
+ }
+
+.card-three{
+    width: 25%;
+    height: 100%;
+    border: 2px solid white;
+}
+.card-three a{
+    text-decoration: none;
+ }
+ .card-three h3{
+     text-align: center;
+     color: #FFFFFF;
+     font-size: 40px;
+     font-weight: 600;
+     font-family: 'Times New Roman', Times, serif;
+     padding-top: 30px;
+ }
+ .card-three p{
+     text-align: center;
+     color: #FFFFFF;
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .card-three img{
+     width: 300px;
+     height: auto;
+     margin: auto;
+     display: block;
+     padding-top: 40px;
+ }
+
+.card-four{
+    width: 25%;
+    height: 100%;
+    border: 2px solid white;
+}
+.card-four a{
+    text-decoration: none;
+ }
+ .card-four  h3{
+     text-align: center;
+     color: #FFFFFF;
+     font-size: 40px;
+     font-weight: 600;
+     font-family: 'Times New Roman', Times, serif;
+     padding-top: 30px;
+ }
+ .card-four  p{
+     text-align: center;
+     color: #FFFFFF;
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .card-four  img{
+     width: 300px;
+     height: auto;
+     margin: auto;
+     display: block;
+     padding-top: 40px;
+ }
+
+/*CARROUSEL CARROUSEL CARROE=USEL CARROUSEL*/
+/*CARROUSEL CARROUSEL CARROE=USEL CARROUSEL*/
+/*CARROUSEL CARROUSEL CARROE=USEL CARROUSEL*/
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+  }
+  
+  .carousel-item1{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: slide 30s linear infinite;
+  }
+  
+  .carousel-item2{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: slide 30s linear infinite;
+  }
+  .carousel-item3{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: slide 30s linear infinite;
+  }
+  .carousel-item4{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: slide 30s linear infinite;
+  }
+  .carousel-item5{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: slide 30s linear infinite;
+  }
+  .carousel-item6{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: slide 30s linear infinite;
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-600%); }
+  }
+  
+  .carousel {
+    display: flex;
+    white-space: nowrap; 
+  }
+  
+  
+
+  .carousel-item1 img{
+    width: 100%;
+    height: 120px;
+    
+  }
+  .carousel-item2 img{
+    width: 100%;
+    height:120px;
+  }
+  .carousel-item3 img{
+    width: 100%;
+    height: 120px;
+  }
+  .carousel-item4 img{
+    width: 100%;
+    height:120px;
+  }.carousel-item5 img{
+    width: 100%;
+    height: 120px;
+  }.carousel-item6 img{
+    width: 100%;
+    height: 120px;
+  }
+  
+ /*FIN CARROUSEL FIN CARROUSEL FIN CARROUSEL FIN CARROUSEL*/
+ /*FIN CARROUSEL FIN CARROUSEL FIN CARROUSEL FIN CARROUSEL*/
+ /*FIN CARROUSEL FIN CARROUSEL FIN CARROUSEL FIN CARROUSEL*/
+
+
+
+section.institucional {
+    background-color: #670505; 
+    color: white;
+    height: 800px;
+}
+
+.very{
+    height: 150px;
+    background-color: #3d3636;
+}
+.very h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+}
+.very p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.very a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.import{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+.very-import1{
+    width: 33%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    padding: 10px;
+    border: 1px double white;
+}
+.very-import1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.very-import1 h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.very-import1 p{
+    text-align:justify;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.very-import1 img{
+    width: 300px;
+}
+
+
+.very-import2{
+    width: 33%;
+    height: auto;
+    background-color: #3d3636;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-items:center;
+    padding: 10px;
+    border: 1px double white;
+}
+.very-import2 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.very-import2 h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.very-import2 p{
+    text-align:justify;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.very-import2 img{
+    width: 350px;
+    height: auto;
+}
+
+
+.very-import3{
+    width: 33%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    padding: 10px;
+    border: 1px double white;
+}
+.very-import3 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.very-import3 h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.very-import3 p{
+    text-align:justify;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.very-import3 img{
+    width: 400px;
+}
+
+
+
+section.informativo {
+    width: 100%;
+    height: 500px;
+    background-color: #333; /* Rojo Bordeaux */
+    color: white;
+    margin-top: 40px;
+}
+
+
+
+
+
+/*INICIO PDF INICIO PDDF INICIO PDF*?
+/*INICIO PDF INICIO PDDF INICIO PDF*?
+/*INICIO PDF INICIO PDDF INICIO PDF*?
+
+/* Reset de márgenes y relleno*/
+body{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor del PDF */
+.pdf-container {
+    width: 80vw;
+    height: 100vh;
+    border: 1px solid #ccc;
+}
+.pdf-container-2{
+    width: 80vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+/* Enlace de descarga */
+.download-link {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #1E90FF;
+}
+
+.download-link:hover {
+    text-decoration: underline;
+}
+/*FIN PDF FIN PDF FIN PDF FIN PDF*/
+/*FIN PDF FIN PDF FIN PDF FIN PDF*/
+/*FIN PDF FIN PDF FIN PDF FIN PDF*/
+
