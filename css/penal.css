@@ -59,14 +59,13 @@
     margin: auto;
     margin-top: 30px;
     display: flex;
-    background-color: aqua;
  }
  
  
  .one-civil{
     width: 50%;
     height: 100%;
-    background-color: #3d3636; 
+    background-color: #083f61; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,14 +87,7 @@
   
  }
 
- .cuatro{
-    width: 100%;
-    height: 50%;
-  
- }
-
-
-
+ 
 
  /* Estilo del contenedor de la sección */
 section.uno{
@@ -122,7 +114,7 @@ section.uno h2{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     display: block;
@@ -139,7 +131,7 @@ section.uno p{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 35px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     border: 1px solid black;
     border-radius: 5px;
@@ -150,15 +142,8 @@ section.uno p{
     
 }
 
-/* Ajustes específicos para título y párrafo */
-section.uno h2{
-    font-size: 2em;
-    margin-bottom: 10px;
-}
 
-section.uno p{
-    font-size: 1.2em;
-}
+
 /* Estilo del contenedor de la sección */
 section.dos {
     position: relative;
@@ -182,7 +167,7 @@ section.dos h2{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 60px;
+    font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     display: block;
@@ -199,7 +184,7 @@ section.dos p{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 35px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     border: 1px solid black;
     border-radius: 5px;
@@ -211,20 +196,11 @@ section.dos p{
 }
 
 /* Ajustes específicos para título y párrafo */
-section.dos h2{
-    font-size: 2em;
-    margin-bottom: 10px;
-}
 
-section.dos p{
-    font-size: 1.2em;
-}
-
-
- .two-civil{
+.two-civil{
     width: 50%;
     height: 100%;
-    background-color: #3d3636;
+    background-color: #083f61;
     display: flex;
     justify-content:space-around;
     flex-direction: column;
@@ -236,6 +212,7 @@ section.dos p{
 section.tres {
     position: relative;
     width: 80%;
+    height: 700px;
     margin: 0 auto;
     text-align: center;
     border-bottom: 4px solid white;
@@ -245,9 +222,8 @@ section.tres {
 section.tres img{
     width: 100%;
     height: 90%;
-    padding-top: 40px;
-    display: block;
-    margin: 0 auto;
+    
+   
 }
 
 /* Estilo del texto superpuesto */
@@ -257,7 +233,7 @@ section.tres h2{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     display: block;
@@ -274,7 +250,7 @@ section.tres p{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 35px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     border: 1px solid black;
     border-radius: 5px;
@@ -284,88 +260,16 @@ section.tres p{
     padding: 8px 5px 8px 5px;
 }
 
-/* Ajustes específicos para título y párrafo */
-section.tres h2{
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-section.tres p{
-    font-size: 1.2em;
-}
-
-/* Estilo del contenedor de la sección */
-section.cuatro{
-    position: relative;
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-/* Estilo de la imagen para centrarla */
-section.cuatro img{
-    width: 100%;
-    height: 90%;
-    display: block;
-    margin: 0 auto;
-}
-
-/* Estilo del texto superpuesto */
-section.cuatro h2{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 60px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-    display: block;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.517);
-    text-align: center;
-    padding: 10px;
-}
-section.cuatro p{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 35px;
-    font-family: 'Times New Roman', Times, serif;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.517);
-    text-align: center;
-    display: block;
-    padding: 8px 5px 8px 5px;
-}
-
-/* Ajustes específicos para título y párrafo */
-section.cuatro h2{
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-section.cuatro p{
-    font-size: 1.2em;
-}
 
 /*INICIO DEL MAIN DE DERECHO CIVIL INICIO DEL MAIN DE DERECHO CIVIL*/
 /*INICIO DEL MAIN DE DERECHO CIVIL INICIO DEL MAIN DE DERECHO CIVIL*/
 /*INICIO DEL MAIN DE DERECHO CIVIL INICIO DEL MAIN DE DERECHO CIVIL*/
-
-/* Reset de márgenes y relleno */
-
-
 
 /* Diferentes colores para cada sección */
 section.educativo {
     width: 100%;
     height: 400px;
-    background-color:#670505; /* Azul Marino */
+    background-color:#033357;
     color: white;
     display: flex;
     justify-content:space-between;
@@ -424,7 +328,7 @@ section.educativo {
  }
  .card-two img{
      width: 300px;
-     height: auto;
+     height: 200px;
      margin: auto;
      display: block;
      padding-top: 40px;
@@ -454,7 +358,7 @@ section.educativo {
  }
  .card-three img{
      width: 300px;
-     height: auto;
+     height:200px;
      margin: auto;
      display: block;
      padding-top: 40px;
@@ -594,7 +498,7 @@ section.educativo {
 
 
 section.institucional {
-    background-color: #670505; 
+    background-color: #033357; 
     color: white;
     height: 800px;
 }
@@ -673,13 +577,13 @@ section.institucional {
 }
 .very-import2 h4{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
 }
 .very-import2 p{
     text-align:justify;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
 .very-import2 img{
@@ -723,14 +627,14 @@ section.institucional {
 section.informativo {
     width: 100%;
     height: 500px;
-    background-color: #333; /* Rojo Bordeaux */
+    background-color: #313030; /* Rojo Bordeaux */
     color: white;
     margin-top: 40px;
 }
 .info-1{
     width: 100%;
     height: 150px;
-    background-color: #670505;
+    background-color: #313030;
     padding-top: 20px;
     border-bottom: 2px solid white;
 }
@@ -759,8 +663,8 @@ section.informativo {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 2px solid white ;
-    background: linear-gradient(to bottom, #670505, #333);
+    border: 2px solid rgb(26, 99, 194) ;
+    background: linear-gradient(to bottom, #313030, #333);
 }
 
 @keyframes slideInFromLeft { 
@@ -768,10 +672,28 @@ section.informativo {
     100% { transform: translateX(0); }
  }
 
+
+
+
+
+
+
+.regional-1 {
+    background-image: url('../img/img\ 3\ Derech\ penal.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 25%; /* Ancho del contenedor */ /* Altura del contenedor (en este caso, altura total de la ventana) */
+}
+
 .regional-1 h5{
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.477);
     animation: slideInFromLeft 1s ease-out forwards;
 }
 .regional-1 h5:hover { 
@@ -797,12 +719,24 @@ section.informativo {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 2px solid white ;
+    border: 2px solid rgb(26, 99, 194);
 }
+.regional-2 {
+    background-image: url('../img/img\ 2\ Derech\ penal.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 25%; /* Ancho del contenedor */ /* Altura del contenedor (en este caso, altura total de la ventana) */
+}
+
 .regional-2 h5{
-    font-size: 50px;
+    font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.477);
 }
 .regional-2 button{
     width: 100px;
@@ -817,13 +751,6 @@ section.informativo {
 }
 
 
-.regional-4 h5{
-    font-size: 35px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 700;
-}
-
-
 
 .regional-3{
     width: 30%;
@@ -832,13 +759,25 @@ section.informativo {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(to bottom, #670505, #333);
-    border: 2px solid white ;
+    background: linear-gradient(to bottom, #313030, #333);
+    border: 2px solid rgb(26, 99, 194) ;
 }
+.regional-3 {
+    background-image: url('../img/Imag\ 1\ Derech\ penal.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 25%; /* Ancho del contenedor */ /* Altura del contenedor (en este caso, altura total de la ventana) */
+}
+
 .regional-3 h5{
-    font-size: 35px;
+    font-size: 30 px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.477);
 }
 .regional-3 button{
     width: 100px;
@@ -863,9 +802,17 @@ section.informativo {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 2px solid white ;
-    background: linear-gradient(to bottom, #670505, #333);
+    border: 2px solid rgb(26, 99, 194) ;
+    background: linear-gradient(to bottom, #313030, #333);
 }
+.regional-4 {
+    background-image: url('../img/img\ 4\ Derech\ penal.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 25%; /* Ancho del contenedor */ /* Altura del contenedor (en este caso, altura total de la ventana) */
+}
+
 
 @keyframes slideInFromRight{ 
     0% { transform: translateX(-100%); } 
@@ -873,10 +820,14 @@ section.informativo {
  }
 
 .regional-4 h5{
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
     animation: slideInFromRight 1s ease-out forwards;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.477);
 }
 .regional-4 h5:hover { 
     transform: scale(1.5); color: #ff9900; }
@@ -969,47 +920,185 @@ footer {
 
 
 
+/*INICIO DE PROFESORADO DE HISTORIA INICIO DE PROFESORADO DE HISTORIA*/
+/*INICIO DE PROFESORADO DE HISTORIA INICIO DE PROFESORADO DE HISTORIA*/
+/*INICIO DE PROFESORADO DE HISTORIA INICIO DE PROFESORADO DE HISTORIA*/
+/*INICIO DE PROFESORADO DE HISTORIA INICIO DE PROFESORADO DE HISTORIA*/  
 
 
+nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #660000;
+}
+nav img{
+    width: 100px;
+    padding-top: 20px;
+}
+nav .menu{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#f5f5f5;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #333;
+}
 
-/*INICIO PDF INICIO PDDF INICIO PDF*?
-/*INICIO PDF INICIO PDDF INICIO PDF*?
-/*INICIO PDF INICIO PDDF INICIO PDF*?
+.header-section {
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+    flex: 1;
+}
+.header-section h2{
+    font-size: 20px ;
+    color:#f5f5f5;
+}
+.header-section p{
+    font-size: 16px;
+    color:#f5f5f5;
+}
+.header-section a{
+    text-decoration: none;
+}
 
-/* Reset de márgenes y relleno*/
-body{
-   
+.animated-image {
+    width: 100%;
+    height: 650px;
+    border: 1px solid #660000;
+    animation: fadeIn 2s infinite;
+}
+
+@keyframes fadeIn {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+/*INICIO DEL MAIN INICIO DEL MAIN INICIO DEL MAIN DE HISTORIA*/
+/*INICIO DEL MAIN INICIO DEL MAIN INICIO DEL MAIN DE HIASTORIA*//*INICIO DEL MAIN INICIO DEL MAIN INICIO DEL MAIN DE HISTORIA*/
+
+
+.history{
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.video-large, .video-thumbnails {
+    width: 50%;
+    height: 400px;
+}
+.video-large iframe {
+    width: 100%;
+    height: 100%;
+}
+.video-thumbnails {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+.video-thumbnails iframe {
+    width: 100%;
+    height: calc(33.33% - 10px);
+}
+.video-thumbnails iframe + iframe {
+    margin-top: 10px;
+}
+
+
+
+
+/*INICIO DE SOCIOLOGIA INICIO DE SOCIOLOGIA*/
+/*INICIO DE SOCIOLOGIA INICIO DE SOCIOLOGIA*/
+/*INICIO DE SOCIOLOGIA INICIO DE SOCIOLOGIA*/
+/*INICIO DE SOCIOLOGIA INICIO DE SOCIOLOGIA*/
+
+
+.header-sociology{
+    display: flex;
     align-items: center;
-    justify-content: center;
-    font-family: Arial, sans-serif;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #333;
 }
 
-/* Contenedor del PDF */
-.pdf-container {
-    width: 80vw;
-    height: 100vh;
-    border: 1px solid #ccc;
+.header-section {
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+    flex: 1;
 }
-.pdf-container-2{
-    width: 80vw;
-    height: 100vh;
-    border: 1px solid black;
+.header-section h2{
+    font-size: 20px ;
+    color:#f5f5f5;
 }
-
-/* Enlace de descarga */
-.download-link {
-    margin-top: 20px;
-    font-size: 1.2em;
+.header-section p{
+    font-size: 16px;
+    color:#f5f5f5;
+}
+.header-section a{
     text-decoration: none;
-    color: #1E90FF;
 }
 
-.download-link:hover {
-    text-decoration: underline;
+.animated-image {
+    width: 100%;
+    height: 650px;
+    border: 1px solid #660000;
+    animation: fadeIn 2s infinite;
 }
-/*FIN PDF FIN PDF FIN PDF FIN PDF*/
-/*FIN PDF FIN PDF FIN PDF FIN PDF*/
-/*FIN PDF FIN PDF FIN PDF FIN PDF*/
+
+@keyframes fadeIn {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+/*INICIO DEL MAIN INICIO DEL MAIN INICIO DEL MAIN DE sociologia*/
+/*INICIO DEL MAIN INICIO DEL MAIN INICIO DEL MAIN DE SOCIOLOGIA*//*INICIO DEL MAIN INICIO DEL MAIN INICIO DEL MAIN DE SOCIOLOGIA*/
+
+
+.sociology{
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.video-large, .video-thumbnails-one {
+    width: 50%;
+    height: 400px;
+}
+.video-large iframe {
+    width: 100%;
+    height: 100%;
+}
+.video-thumbnails-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.video-thumbnails iframe {
+    width: 100%;
+    height: calc(33.33% - 10px);
+}
+.video-thumbnails iframe + iframe {
+    margin-top: 10px;
+}
 

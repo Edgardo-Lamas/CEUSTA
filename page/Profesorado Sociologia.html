@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <meta name="description"
+            content="Centro Universitario dedicado a brindar educación de calidad a estudiantes en contexto de encierro, promoviendo su reintegración social y desarrollo personal a través de programas académicos innovadores y apoyo integral.">
+        <link rel="icon" href="./img/flaticon ceusta.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="../css/penal.css">
+       
+        <title>Sociologia</title>
+    </head>
+<body>
+    <nav>
+        <a href="../index.html"><img src="../img/logoceusta.svg" alt="logo" class="logo"></a>
+        <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../page/Profesorqdo Historia.html">Historia</a></li>
+            <li><a href="../page/Profesorado Sociologia.html">Sociologia</a></li>
+        </ul>
+    </nav>
+    <header class="header-sociology">
+        
+        <div class="header-section" id="section1">
+            <a href="https://mdelarosa.es/los-temas-mas-relevantes-que-aborda-la-sociologia-en-la-actualidad/"><img src="../img/temas sociologia.jpg" alt="Sección 1" class="animated-image">
+            <h2>Temas Relevantes </h2>
+            <p>Abordados por la sociologia</p></a>
+        </div>
+        <div class="header-section" id="section2">
+            <a href="https://docs.google.com/document/d/1UgBezmWOn6PymH25QH-toZObOQCsVxqjobzgO3E3TSs/edit?tab=t.0#heading=h.gjdgxs"><img src="../img/plan sociologia.jpg" alt="Sección 2" class="animated-image">
+            <h2>Plan de Estudio</h2>
+            <p>Profesorado de Sociologia</p></a>
+        </div>
+        <div class="header-section" id="section3">
+            <a href="https://www.fahce.unlp.edu.ar/siu-guarani"><img src="../img/SIU Guarani Estudiantes.jpg" alt="Sección 3" class="animated-image">
+            <h2>SIU GUARANI</h2>
+            <p>Inscripcion estudiantes.</p></a>
+        </div>
+        <div class="header-section" id="section4">
+            <a href="https://www.fahce.unlp.edu.ar/facultad/biblioteca"><img src="../img/biblioteca fahce.jpg" alt="Sección 4" class="animated-image">
+            <h2>BIBLIOTECA</h2>
+            <p>Accede a todo el contenido</p></a>
+        </div>
+        <div class="header-section" id="section5">
+            <a href="https://www.academia.edu/116316378/teoría_sociológica_contemporánea"><img src="../img/soc contemporanea.jpg" alt="Sección 5" class="animated-image">
+            <h2>Teoria sociologica</h2>
+            <p>Contemporanea</p></a>
+        </div>
+    </header>
+
+        <main class="sociology">
+            <div class="video-large-one">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lRus08u2yzA?si=jXUQVdaPwpb4JXIt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="video-thumbnails-one">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GwLSOyO940M?si=8KLpMFjgFn5aE5PJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jSqe7MRAsaY?si=IsZmWa60FJPqgpC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/biM__sqVFCw?si=iyvCFsUzCWD6rTyj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2>Centro Universitario</h2>
+                    <p>Comprometidos con la inclusión y la justicia, promovemos la educación transformadora y la reintegración social.</p>
+                    <div class="contact">
+                        <p>Email: info@centrouniversitario.com</p>
+                        <p>Tel: +54 11 1234 5678</p>
+                    </div>
+                    <div class="socials">
+                        <a href="#"><img src="../img/facebook-icon.png" alt="Facebook"></a>
+                        <a href="#"><img src="../img/twitter-icon.png" alt="Twitter"></a>
+                        <a href="#"><img src="../img/instagram-icon.png" alt="Instagram"></a>
+                    </div>
+                </div>
+                <div class="footer-section links">
+                    <h2>Enlaces Rápidos</h2>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                    </ul>
+        </footer>
+    
+        <script>
+            function changeVideo(videoID) {
+                document.getElementById('large-video').src = `https://www.youtube.com/embed/${videoID}`;
+            }
+        </script>
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('.header-section');
+
+            sections.forEach(section => {
+                section.addEventListener('mouseover', () => {
+                    section.style.transform = 'scale(1.1)';
+                    section.style.transition = 'transform 0.3s ease';
+                });
+
+                section.addEventListener('mouseout', () => {
+                    section.style.transform = 'scale(1)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
